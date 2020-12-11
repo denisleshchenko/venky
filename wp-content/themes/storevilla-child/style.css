@@ -5,6 +5,120 @@ Author: Nadoweb
 Author URI: http://nadoweb.ru/
 Description: Child theme
 Version: 0.1.0
-
 */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.main-navigation{
+    width: 94%;
+}
+.primary-navigation{
+    padding-left: 175px;
+}
+.site-header .top-header{
+    border-bottom: none;
+    background: #000;
+}
+.main-navigation li.menu-item-has-children > a::before{
+    font-size: 18px;
+    line-height: 31px;    
+}
+.main-navigation ul li a{
+    font-family: "Gabriola";
+    font-weight: 400;
+    font-size: 24px;
+}
+.main-navigation{
+    background-color: #000;
+}
+.top-header-regin .count .fa.fa-shopping-basket{
+    color: #FFF;
+    font-size: 19px;
+}
+.top-header-regin ul li span.cart-count{
+    background-color: #dd0051;
+    font-family: "Open Sans";
+}
+.main-navigation ul ul{
+    background: #000;
+}
+.main-navigation ul li ul li a{
+    padding: 3px 10px;
+    font-size: 22px;
+    width: 245px;
+}
+.top-header .top-header-regin{
+    padding-top: 17px;
+}
+.banner-phone{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.banner-phone .left{
+    text-align: right;
+    padding-right: 45px;
+}
+.banner-phone .right{
+    text-align: left;
+    padding-left: 45px;
+}
+.banner{
+    
+}
 
+
+
+
+
+/*    MEDIA     */
+
+@media (max-width:1197px){
+    .primary-navigation{
+        padding-left: 65px;
+    }
+}
+
+
+@media (max-width:1000px){
+    .primary-navigation{
+        padding-left: 0px;
+    }
+    .main-navigation ul li a{
+        padding: 20px 15px;
+    }
+    .main-navigation li.menu-item-has-children > a::before{
+        right:0px
+    }
+}
+@media (max-width:910px){
+    .main-navigation {
+        width: 92%;
+    }
+}
+
+@media (max-width: 768px) {
+    .store-container.clearfix {
+        text-align: left;
+    }
+    .main-navigation {
+        width: 75%;
+    }
+    .top-header .main-navigation ul li a{color: #000;}
+    .top-header ul li{
+        text-align: left;
+    }
+    .main-navigation ul li.current-menu-item a, .main-navigation ul li:hover a,.top-header .main-navigation ul ul{
+        background: rgb(115, 115, 115) !important;
+        color: #fff;
+    }
+    .top-header .main-navigation ul ul a{ color: #fff;}
+    .main-navigation ul ul{padding-left: 5px;}
+    .main-navigation ul li{
+        line-height: 1;
+    }
+    .main-navigation ul li ul li:hover a {
+        background: #fff;
+        color: #B4B4B4;
+    }
+}

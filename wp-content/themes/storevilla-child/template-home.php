@@ -13,6 +13,7 @@
  */
 
 get_header(); ?>
+
   <?php do_action( 'storevilla_before_homepage' ); ?>
 
       <?php

