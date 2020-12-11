@@ -1,0 +1,1453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreVilla v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-11-26 22:30+0200\n"
+"Last-Translator: admin\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ storevilla
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Такой страницы не существует :("
+
+# @ storevilla
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может быть попробовать одну из следующих ссылок или поиск?"
+
+# @ storevilla
+#: 404.php:25
+msgid "Back To Home"
+msgstr "На главную"
+
+# @ storevilla
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "Комментариев: %1$s на &ldquo;%2$s&rdquo;"
+msgstr[2] ""
+
+# @ storevilla
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ storevilla
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+# @ storevilla
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ storevilla
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ storevilla
+#: functions.php:53
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+# @ storevilla
+#: functions.php:54
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ storevilla
+#: functions.php:116
+msgid "Right Sidebar Widget Area"
+msgstr "Область виджетов правой колонки"
+
+# @ storevilla
+#: functions.php:118 functions.php:128 functions.php:147
+msgid "Add widgets here."
+msgstr "Добавление виджетов здесь."
+
+# @ storevilla
+#: functions.php:126
+msgid "Left Sidebar Widget Area"
+msgstr "Область виджетов левого сайдбара"
+
+# @ storevilla
+#: functions.php:137
+msgid "Top Right Header Widget Area"
+msgstr "Область виджетов справа в шапке"
+
+# @ storevilla
+#: functions.php:139
+msgid "Add languages currency widgets here."
+msgstr "Добавить языки"
+
+# @ storevilla
+#: functions.php:145
+msgid "SV : Main Block Widget Area"
+msgstr "SV: Главный блок области виджетов"
+
+# @ storevilla
+#: functions.php:159
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr "Виджеты в подвале %d"
+
+# @ storevilla
+#: functions.php:161
+#, php-format
+msgid " Add Widgetized Footer Region %d."
+msgstr "Добавить региональные виджеты в футер %d."
+
+# @ storevilla
+#: functions.php:171
+msgid "Footer Quick Information Area"
+msgstr "Область виджетов в футере - быстрая информация"
+
+# @ storevilla
+#: functions.php:173
+msgid "Add quick contact information widgets here."
+msgstr "Добавить контактную информацию здесь."
+
+# @ storevilla
+#: inc/customizer.php:25
+msgid "General Settings"
+msgstr "Основные настройки"
+
+# @ storevilla
+#: inc/customizer.php:31
+msgid "Themes Colors"
+msgstr "Настройки цветов темы"
+
+# @ storevilla
+#: inc/customizer.php:40
+msgid "Header Options"
+msgstr "Настройки шапки"
+
+# @ storevilla
+#: inc/customizer.php:52 inc/customizer.php:75
+msgid "Enable / Disable Top Header"
+msgstr "Включить / отключить шапку."
+
+# @ storevilla
+#: inc/customizer.php:56 inc/customizer.php:234 inc/customizer.php:267
+#: inc/customizer.php:458 inc/customizer.php:602
+msgid "Enable"
+msgstr "Включить "
+
+# @ storevilla
+#: inc/customizer.php:57 inc/customizer.php:235 inc/customizer.php:268
+#: inc/customizer.php:459 inc/customizer.php:603
+msgid "Disable"
+msgstr "Отключить"
+
+# @ storevilla
+#: inc/customizer.php:63
+msgid "Web Page Layout Options"
+msgstr "Настройки макета"
+
+# @ storevilla
+#: inc/customizer.php:79
+msgid "Box Layout"
+msgstr "Макет коробки"
+
+# @ storevilla
+#: inc/customizer.php:80
+msgid "Full Width Layout"
+msgstr "Макет по всей ширине"
+
+# @ storevilla
+#: inc/customizer.php:92
+msgid "Top Header Options"
+msgstr "Настройки верхней шапки"
+
+# @ storevilla
+#: inc/customizer.php:95 inc/customizer.php:614
+msgid "Top Navigation"
+msgstr "Верхняя панель навигации"
+
+# @ storevilla
+#: inc/customizer.php:96 inc/customizer.php:615
+msgid "Quick Info"
+msgstr "Контактная информация"
+
+# @ storevilla
+#: inc/customizer.php:109 inc/customizer.php:138 inc/customizer.php:167
+#: inc/customizer.php:196
+msgid "Select Features Icon"
+msgstr "Иконка"
+
+# @ storevilla
+#: inc/customizer.php:123
+msgid "Email Address"
+msgstr "Email адрес"
+
+# @ storevilla
+#: inc/customizer.php:152
+msgid "Phone Number"
+msgstr "Телефон"
+
+# @ storevilla
+#: inc/customizer.php:181
+msgid "Address"
+msgstr "Адрес"
+
+# @ storevilla
+#: inc/customizer.php:210
+msgid "Shop Opening Time"
+msgstr "Время открытия магазина"
+
+# @ storevilla
+#: inc/customizer.php:218
+msgid "Main Banner Section Area"
+msgstr "Раздел Баннеры"
+
+# @ storevilla
+#: inc/customizer.php:230
+msgid "Enable / Disable Main Banner Area"
+msgstr "Включить/Выключить"
+
+# @ storevilla
+#: inc/customizer.php:246
+msgid "Select Slide Category"
+msgstr "Выберите категорию слайдов"
+
+# @ storevilla
+#: inc/customizer.php:251
+msgid "Header Promo Section Area"
+msgstr "Секция в шапке - промо"
+
+# @ storevilla
+#: inc/customizer.php:263
+msgid "Enable / Disable Main Header Promo Area"
+msgstr "Включить / отключить"
+
+# @ storevilla
+#: inc/customizer.php:280
+msgid "Upload Promo One Image"
+msgstr "Загрузить первое изображение Промо"
+
+# @ storevilla
+#: inc/customizer.php:292
+msgid "Promo One Link"
+msgstr "Ссылка Промо 1"
+
+# @ storevilla
+#: inc/customizer.php:304
+msgid "Upload Promo Two Image"
+msgstr "Загрузить второе изображение Промо"
+
+# @ storevilla
+#: inc/customizer.php:316
+msgid "Promo Two Link"
+msgstr "Ссылка Промо 2"
+
+# @ storevilla
+#: inc/customizer.php:326
+msgid "Mange products and singel product page settings"
+msgstr "Настройки страницы товара"
+
+# @ storevilla
+#: inc/customizer.php:328
+msgid "WooCommerce Products Area"
+msgstr "Woo Commerce Товары"
+
+# @ storevilla
+#: inc/customizer.php:335
+msgid "Products Pages Settings"
+msgstr "Настройки страницы товара"
+
+# @ storevilla
+#: inc/customizer.php:347
+msgid "Select Products pages Layout"
+msgstr "Выберите структуру страницы товара"
+
+# @ storevilla
+#: inc/customizer.php:364
+msgid "Select Products Pages Row"
+msgstr "Отступы на странице товаров"
+
+# @ storevilla
+#: inc/customizer.php:381
+msgid "Enter Products Display Per Page"
+msgstr "Количество продуктов, отображаемых на странице."
+
+# @ storevilla
+#: inc/customizer.php:391
+msgid "Single Products Page Settings"
+msgstr "Настройки страницы товара"
+
+# @ storevilla
+#: inc/customizer.php:403
+msgid "Select Single Products Page Layout"
+msgstr "Выберите структуру страницы товара"
+
+# @ storevilla
+#: inc/customizer.php:420
+msgid "Enter Up Sell Title"
+msgstr "Введите заголовок для блока Распродажа"
+
+# @ storevilla
+#: inc/customizer.php:434
+msgid "Enter Related Products Title"
+msgstr "Сопутствующие товары (Название)"
+
+# @ storevilla
+#: inc/customizer.php:442
+msgid "Brands Logo Section Area"
+msgstr "Секция  - Логотипы брендов"
+
+# @ storevilla
+#: inc/customizer.php:454
+msgid "Options Enable/Disable Brands Loga Area"
+msgstr "Включить/Выключить"
+
+# @ storevilla
+#: inc/customizer.php:471
+msgid "Brands Top Title"
+msgstr "Лучшие торговые марки - Название"
+
+# @ storevilla
+#: inc/customizer.php:484
+msgid "Brands Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/customizer.php:497
+msgid "Upload Brands Logos"
+msgstr "Загрузить логотипы брендов"
+
+# @ storevilla
+#: inc/customizer.php:502
+msgid "Copyright Message Section"
+msgstr "Копирайт"
+
+# @ storevilla
+#: inc/customizer.php:514
+msgid "Copyright"
+msgstr "Все права защищены"
+
+# @ storevilla
+#: inc/customizer.php:521
+msgid "Payment Logo Section"
+msgstr "Секция  - Логотип оплаты"
+
+# @ storevilla
+#: inc/customizer.php:532 inc/customizer.php:543 inc/customizer.php:554
+#: inc/customizer.php:565 inc/customizer.php:576 inc/customizer.php:587
+msgid "Upload Payment Logo Image"
+msgstr "Загрузите изображение"
+
+# @ storevilla
+#: inc/extras.php:131 inc/storevilla-widget.php:620
+msgid "New"
+msgstr "Новый"
+
+# @ storevilla
+#: inc/extras.php:212 inc/extras.php:220
+msgid "All Categories"
+msgstr "Все категории"
+
+# @ storevilla
+#: inc/extras.php:237
+msgid "Search entire store here"
+msgstr "Поиск по всему магазину"
+
+# @ storevilla
+#: inc/extras.php:329
+msgid "Display Layout Options"
+msgstr "Настройки макета"
+
+# @ storevilla
+#: inc/extras.php:342
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+# @ storevilla
+#: inc/extras.php:347
+msgid "Right Sidebar(Default)"
+msgstr "Правый сайдбар (по умолчанию)"
+
+# @ storevilla
+#: inc/extras.php:352
+msgid "Full width"
+msgstr "Во всю ширину"
+
+# @ storevilla
+#: inc/extras.php:357
+msgid "Both Sidebar"
+msgstr "Оба сайдбара"
+
+# @ storevilla
+#: inc/extras.php:463
+msgid "&mdash; Select Category &mdash;"
+msgstr "&mdash; Выбрать категорию &mdash;"
+
+# @ storevilla
+#: inc/extras.php:509
+msgid "Add/Edit Gallery"
+msgstr "Добавить/изменить галерею"
+
+# @ storevilla
+#: inc/extras.php:510
+msgid "Clear"
+msgstr "Очистить"
+
+# @ storevilla
+#: inc/extras.php:560
+msgid "Sale!"
+msgstr "Скидки!"
+
+# @ storevilla
+#: inc/extras.php:612
+msgid "View Details"
+msgstr "Смотреть детали"
+
+# @ storevilla
+#: inc/extras.php:648
+msgid "Add To Wishlist"
+msgstr "Добавить в желаемое"
+
+# @ storevilla
+#: inc/extras.php:779
+msgid "View your shopping cart"
+msgstr "Перейти в корзину"
+
+# @ storevilla
+#: inc/hooks.php:102 inc/storevilla-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ storevilla
+#: inc/hooks.php:103 inc/storevilla-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+# @ storevilla
+#. translators: %s: plugin name.
+#: inc/hooks.php:104 inc/storevilla-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ storevilla
+#: inc/hooks.php:105 inc/storevilla-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:107 inc/storevilla-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:110 inc/storevilla-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:113
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:116 inc/storevilla-plugin-activation.php:355
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:119 inc/storevilla-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:122
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:125 inc/storevilla-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: plugin name(s).
+#: inc/hooks.php:128 inc/storevilla-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:131
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:134 inc/storevilla-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:137 inc/storevilla-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:140 inc/storevilla-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/hooks.php:142 inc/storevilla-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ storevilla
+#: inc/hooks.php:143 inc/storevilla-plugin-activation.php:394
+#: inc/storevilla-plugin-activation.php:3250
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name.
+#: inc/hooks.php:145 inc/storevilla-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name.
+#: inc/hooks.php:146 inc/storevilla-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: dashboard link.
+#: inc/hooks.php:147 inc/storevilla-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ storevilla
+#: inc/hooks.php:148 inc/storevilla-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+# @ storevilla
+#. translators: %s: plugin name.
+#: inc/storevilla-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:393
+#: inc/storevilla-plugin-activation.php:918
+#: inc/storevilla-plugin-activation.php:2624
+#: inc/storevilla-plugin-activation.php:3671
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:1025
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:1025
+#: inc/storevilla-plugin-activation.php:1028
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:1028
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:1212
+#: inc/storevilla-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+# @ storevilla
+#. translators: %s: version number
+#: inc/storevilla-plugin-activation.php:2073
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2364
+msgid "Required"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2367
+msgid "Recommended"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2383
+msgid "WordPress Repository"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2386
+msgid "External Source"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2389
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2406
+msgid "Not Installed"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2410
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2412
+msgid "Active"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2418
+msgid "Required Update not Available"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2421
+msgid "Requires Update"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2424
+msgid "Update recommended"
+msgstr ""
+
+# @ storevilla
+#. translators: 1: install status, 2: update status
+#: inc/storevilla-plugin-activation.php:2433
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+# @ storevilla
+#. translators: 1: number of plugins.
+#: inc/storevilla-plugin-activation.php:2479
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: number of plugins.
+#: inc/storevilla-plugin-activation.php:2483
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: number of plugins.
+#: inc/storevilla-plugin-activation.php:2487
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#. translators: 1: number of plugins.
+#: inc/storevilla-plugin-activation.php:2491
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2573
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2581
+msgid "Installed version:"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2589
+msgid "Minimum required version:"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2601
+msgid "Available version:"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2624
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2640
+msgid "Type"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+# @ storevilla
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/storevilla-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+# @ storevilla
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/storevilla-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+# @ storevilla
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/storevilla-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ storevilla
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/storevilla-plugin-activation.php:3043 inc/hooks.php:144
+#: inc/storevilla-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/storevilla-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name, 2: error message.
+#: inc/storevilla-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name.
+#: inc/storevilla-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3598
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name.
+#: inc/storevilla-plugin-activation.php:3600
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3600
+#: inc/storevilla-plugin-activation.php:3608
+msgid "Show Details"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3600
+#: inc/storevilla-plugin-activation.php:3608
+msgid "Hide Details"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/storevilla-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3606
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name.
+#: inc/storevilla-plugin-activation.php:3608
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+# @ storevilla
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/storevilla-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-widget.php:19
+msgid "SV: Woo Latest Category Product"
+msgstr "SV: Woo последний продукт категории"
+
+# @ storevilla
+#: inc/storevilla-widget.php:20
+msgid "A widget that shows WooCommerce category latest product."
+msgstr "Виджет, который показывает категорию WooCommerce последнего продукта."
+
+# @ storevilla
+#: inc/storevilla-widget.php:28 inc/storevilla-widget.php:493
+#: inc/storevilla-widget.php:753
+msgid "Category"
+msgstr "Категория"
+
+# @ storevilla
+#: inc/storevilla-widget.php:29 inc/storevilla-widget.php:566
+#: inc/storevilla-widget.php:752
+msgid "Latest Product"
+msgstr "Последний продукт"
+
+# @ storevilla
+#: inc/storevilla-widget.php:30 inc/storevilla-widget.php:568
+#: inc/storevilla-widget.php:755
+msgid "Feature Product"
+msgstr ""
+"Рекомендованные \n"
+"продукты"
+
+# @ storevilla
+#: inc/storevilla-widget.php:53 inc/storevilla-widget.php:82
+#: inc/storevilla-widget.php:239 inc/storevilla-widget.php:815
+#: inc/storevilla-widget.php:860 inc/storevilla-widget.php:906
+msgid "Select Product Category"
+msgstr "Выберите категорию продукта"
+
+# @ storevilla
+#: inc/storevilla-widget.php:63 inc/storevilla-widget.php:576
+msgid "Top Title"
+msgstr "Верхний заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:69 inc/storevilla-widget.php:582
+msgid "Product Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:75 inc/storevilla-widget.php:588
+#: inc/storevilla-widget.php:808 inc/storevilla-widget.php:853
+#: inc/storevilla-widget.php:899
+msgid "Select Product Type"
+msgstr "Выберите тип продукта"
+
+# @ storevilla
+#: inc/storevilla-widget.php:89 inc/storevilla-widget.php:246
+#: inc/storevilla-widget.php:595 inc/storevilla-widget.php:822
+#: inc/storevilla-widget.php:867 inc/storevilla-widget.php:914
+msgid "Enter Number of Products Show"
+msgstr "Количество отображаемых продуктов."
+
+# @ storevilla
+#: inc/storevilla-widget.php:185
+msgid "SV: Woo Category With Product"
+msgstr "SV: Woo Категория с продуктом"
+
+# @ storevilla
+#: inc/storevilla-widget.php:186
+msgid "A widget that shows woocommerce category feature image with selected category products"
+msgstr "Виджет, который показывает WooCommerce категорию объекта изображения с выбранной категории продуктов"
+
+# @ storevilla
+#: inc/storevilla-widget.php:193
+msgid "Right Align Category Image"
+msgstr "Выровнять по правому краю"
+
+# @ storevilla
+#: inc/storevilla-widget.php:194
+msgid "Left Align Category Image"
+msgstr "Выровнять по левому краю"
+
+# @ storevilla
+#: inc/storevilla-widget.php:226
+msgid "Product Category Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:232
+msgid "Select Display Style (Image Alignment)"
+msgstr "Выберите стиль выравнивания изображения."
+
+# @ storevilla
+#: inc/storevilla-widget.php:303
+msgid "View All"
+msgstr "Смотреть все"
+
+# @ storevilla
+#: inc/storevilla-widget.php:376
+msgid "SV: Woo Category Section"
+msgstr "SV: Woo Категория"
+
+# @ storevilla
+#: inc/storevilla-widget.php:377
+msgid "A widget that shows WooCommerce category"
+msgstr "Виджет, который показывает категории WooCommerce"
+
+# @ storevilla
+#: inc/storevilla-widget.php:412
+msgid "Category Full Background Image"
+msgstr "Категория - Полное фоновое изображение"
+
+# @ storevilla
+#: inc/storevilla-widget.php:418
+msgid "Category Top Title"
+msgstr "Верхний заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:423
+msgid "Category Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:429
+msgid "Select Category"
+msgstr "Выбрать категорию"
+
+# @ storevilla
+#: inc/storevilla-widget.php:490
+msgid "Products"
+msgstr "Товары"
+
+# @ storevilla
+#: inc/storevilla-widget.php:494
+msgid "Product"
+msgstr "Товар"
+
+# @ storevilla
+#: inc/storevilla-widget.php:557
+msgid "SV: Woo Product Section"
+msgstr "SV: Woo раздел товаров"
+
+# @ storevilla
+#: inc/storevilla-widget.php:558
+msgid "A widget that shows WooCommerce all type product (Latest, Feature, On Sale, Up Sale)."
+msgstr "Виджет, который показывает WooCommerce все типы продуктов (последние, рекомендованные, на продажу, после продажи)."
+
+# @ storevilla
+#: inc/storevilla-widget.php:567 inc/storevilla-widget.php:754
+msgid "UpSell Product"
+msgstr "С этим товаром покупают"
+
+# @ storevilla
+#: inc/storevilla-widget.php:569 inc/storevilla-widget.php:756
+msgid "On Sale Product"
+msgstr "Товар на распродаже"
+
+# @ storevilla
+#: inc/storevilla-widget.php:743
+msgid "SV: Woo Product Column"
+msgstr "SV: Woo колонки товаров"
+
+# @ storevilla
+#: inc/storevilla-widget.php:744
+msgid "A widget that shows WooCommerce all type product (Latest, Feature, On Sale, Up Sale) in column view."
+msgstr "Виджет, который показывает WooCommerce все типы продуктов (последние, рекомендованные, на продажу, после продажи) в колоночном виде."
+
+# @ storevilla
+#: inc/storevilla-widget.php:790
+msgid "Product Column One"
+msgstr "Одна колонка товаров"
+
+# @ storevilla
+#: inc/storevilla-widget.php:796
+msgid "Checked to Display One Column"
+msgstr "Отметьте, чтобы показывать в одну колонку"
+
+# @ storevilla
+#: inc/storevilla-widget.php:802
+msgid "Column One Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:834
+msgid "Product Column Two"
+msgstr "Две колонки товаров"
+
+# @ storevilla
+#: inc/storevilla-widget.php:841
+msgid "Checked to Display Two Column"
+msgstr "Отметьте, чтобы показывать в две колонки"
+
+# @ storevilla
+#: inc/storevilla-widget.php:847
+msgid "Column Two Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:880
+msgid "Product Column Three"
+msgstr "Три колонки товаров"
+
+# @ storevilla
+#: inc/storevilla-widget.php:887
+msgid "Checked to Display Three Column"
+msgstr "Отметьте, чтобы показывать в три колонки"
+
+# @ storevilla
+#: inc/storevilla-widget.php:893
+msgid "Column Three Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1073
+msgid "SV: Quick Contact Info"
+msgstr "SV: Контактная информация"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1074
+msgid "A widget that shows quick contact information"
+msgstr "Виджет, который показывает контактную информацию"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1084
+msgid "Title"
+msgstr "Заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1089
+msgid "Contact Address"
+msgstr "Контактный адрес"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1095
+msgid "Contact Number"
+msgstr "Номер телефона"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1100
+msgid "Contact Email Address"
+msgstr "Контактный Email"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1176
+msgid "SV: Blogs Widget Section"
+msgstr "SV: Блоги"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1177
+msgid "A widget that shows blogs posts"
+msgstr "Виджет, который показывает сообщения из блога"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1201
+msgid "Blogs Top Title"
+msgstr "Верхний заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1207
+msgid "Blogs Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1213 inc/storevilla-widget.php:1404
+msgid "Select Blogs Category"
+msgstr "Выберите категорию"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1220
+msgid "Display Posts Order"
+msgstr "Порядок отображения записей"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1310
+msgid "READ MORE"
+msgstr "Читать далее"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1367
+msgid "SV: Testimonial Widget Section"
+msgstr "SV: Отзывы"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1368
+msgid "A widget that shows client testimonial posts"
+msgstr "Виджет, который показывает отзывы клиентов"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1392
+msgid "Testimonial Top Title"
+msgstr "Верхний заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1398
+msgid "Testimonial Main Title"
+msgstr "Основной заголовок"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1411
+msgid "Upload Background Image"
+msgstr "Загрузить изображение фона"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1768
+msgid "No file chosen"
+msgstr "Файл не выбран"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1772 inc/storevilla-widget.php:1846
+msgid "Upload"
+msgstr "Загрузить"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1774 inc/storevilla-widget.php:1847
+msgid "Remove"
+msgstr "Удалить"
+
+# @ storevilla
+#: inc/storevilla-widget.php:1777
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+# @ storevilla
+#: inc/storevilla-widget.php:1792
+msgid "View File"
+msgstr "Просмотр файла"
+
+# @ storevilla
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано: %s"
+
+# @ storevilla
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "Автор: %s"
+
+# @ storevilla
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+# @ storevilla
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категория: %1$s"
+
+# @ storevilla
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ storevilla
+#. translators: %s: post title
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий <span class=\"screen-reader-text\">на %s</span>"
+
+# @ storevilla
+#. translators: %s: Name of current post
+#: inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr "Изменить"
+
+# @ storevilla
+#: inc/template-tags.php:142
+msgid "Skip to navigation"
+msgstr "Перейти к навигации"
+
+# @ storevilla
+#: inc/template-tags.php:143
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+# @ storevilla
+#: inc/template-tags.php:229 inc/template-tags.php:230
+msgid "My Account"
+msgstr "Личный кабинет"
+
+# @ storevilla
+#: inc/template-tags.php:236
+msgid " Logout"
+msgstr "Выйти"
+
+# @ storevilla
+#: inc/template-tags.php:242
+msgid "Login / Register"
+msgstr "Войти/Зарегестрироваться"
+
+# @ storevilla
+#: inc/template-tags.php:253
+msgid "Wishlist"
+msgstr "Список желаний"
+
+# @ storevilla
+#: inc/template-tags.php:455
+#, php-format
+msgid "%1$s By %2$s"
+msgstr "%1$s в %2$s"
+
+# @ storevilla
+#: inc/template-tags.php:540
+msgid "View More"
+msgstr "Показать еще"
+
+# @ storevilla
+#: search.php:19
+#, php-format
+msgid "Search Results for : %s"
+msgstr "Результаты поиска : %s"
+
+# @ storevilla
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ storevilla
+#: template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните сейчас</a>."
+
+# @ storevilla
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено. Попробуйте использовать другие ключевые слова."
+
+# @ storevilla
+#: template-parts/content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно поиск сможет помочь."
+
+# @ storevilla
+#: template-parts/content-page.php:23 template-parts/content-single.php:43
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ storevilla
+#: template-parts/content-search.php:39 template-parts/content.php:39
+msgid "countinue reading"
+msgstr "Читать далее"
+
+# @ storevilla
+#: template-parts/content-search.php:45 template-parts/content.php:45
+msgid "Post By :"
+msgstr "Автор:"
+
+# @ storevilla
+#: woocommerce/global/quantity-input.php:26
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Количество"
