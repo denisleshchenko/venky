@@ -20,11 +20,23 @@
     </head>
 
     <body <?php body_class(); ?>>
+        <div class="preloader" id="preloader">
+            <div id="fountainG">
+                <div id="fountainG_1" class="fountainG"></div>
+                <div id="fountainG_2" class="fountainG"></div>
+                <div id="fountainG_3" class="fountainG"></div>
+                <div id="fountainG_4" class="fountainG"></div>
+                <div id="fountainG_5" class="fountainG"></div>
+                <div id="fountainG_6" class="fountainG"></div>
+                <div id="fountainG_7" class="fountainG"></div>
+                <div id="fountainG_8" class="fountainG"></div>
+            </div>
+        </div>
         <div id="page" class="hfeed site">
 
             <?php //do_action( 'storevilla_before_header' );  ?>
 
-            <header id="masthead" class="site-header" <?php //if ( get_header_image() != '' ) { echo 'style="background-image: url(' . esc_url( get_header_image() ) . '); background-size:cover;"'; }   ?>>
+            <header id="masthead" class="site-header" <?php //if ( get_header_image() != '' ) { echo 'style="background-image: url(' . esc_url( get_header_image() ) . '); background-size:cover;"'; }    ?>>
 
 
                 <div class="top-header">					
@@ -52,29 +64,32 @@
 
                             <ul class="site-header-cart menu">
 
-                                <?php if (is_user_logged_in()) {
+                                <?php
+                                if (is_user_logged_in()) {
                                     if (storevilla_is_woocommerce_activated()) {
                                         ?>	
                                         <li class="my_account_wrapper">
                                             <a href="<?php //echo get_permalink(get_option('woocommerce_myaccount_page_id'));  ?>" title="<?php _e('My Account', 'storevilla'); ?>">
-        <?php //_e('My Account','storevilla');   ?>
+        <?php //_e('My Account','storevilla');    ?>
                                             </a>
                                         </li>
     <?php } ?>
                                     <li>
                                         <a class="sv_logout" href="<?php echo wp_logout_url(home_url()); ?>">
-    <?php //_e(' Logout', 'storevilla');   ?>
+    <?php //_e(' Logout', 'storevilla');    ?>
                                         </a>
                                     </li>    			
-                                <?php } else {
+                                <?php
+                                } else {
                                     if (storevilla_is_woocommerce_activated()) {
                                         ?>    			
                                         <li>
-                                            <a class="sv_login" href="<?php //echo get_permalink(get_option('woocommerce_myaccount_page_id'));   ?>">
-                                        <?php //_e('Login / Register', 'storevilla');  ?>
+                                            <a class="sv_login" href="<?php //echo get_permalink(get_option('woocommerce_myaccount_page_id'));    ?>">
+                                        <?php //_e('Login / Register', 'storevilla');   ?>
                                             </a>
                                         </li>
-                                    <?php }
+                                    <?php
+                                    }
                                 }
                                 ?>
 
@@ -87,16 +102,17 @@
                                         ?>
                                     </li>
 
-<?php
-} if (storevilla_is_woocommerce_activated()) {
-    if (is_active_sidebar('storevillaheaderone')) {
-        ?>
+                                    <?php
+                                } if (storevilla_is_woocommerce_activated()) {
+                                    if (is_active_sidebar('storevillaheaderone')) {
+                                        ?>
                                         <li>
                                             <div class="header-widget-region" role="complementary">
                                         <?php dynamic_sidebar('storevillaheaderone'); ?>
                                             </div>
                                         </li>
-    <?php }
+    <?php
+    }
 }
 ?>
 
@@ -125,10 +141,10 @@
                 ?>
             </header><!-- #masthead -->
 
-                        <?php do_action('storevilla_after_header'); ?>
+<?php do_action('storevilla_after_header'); ?>
 
             <div id="content" class="site-content">
-<?php if (!( is_home() || is_front_page() )) { ?>
+                        <?php if (!( is_home() || is_front_page() )) { ?>
                     <div class="store-container clearfix">
                         <div class="store-container-inner clearfix">
     <?php

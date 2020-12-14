@@ -380,13 +380,13 @@ if ( ! function_exists( 'storevilla_footer_widgets' ) ) {
 	 */
 	function storevilla_footer_widgets() {
 		
-			if ( is_active_sidebar( 'storevillafooter-4' ) ) {
+			if ( is_active_sidebar( 'storevillafooter-5' ) ) {
 				$widget_columns = apply_filters( 'storevilla_footer_widget_regions', 5 );
-			} elseif ( is_active_sidebar( 'storevillafooter-3' ) ) {
+			} elseif ( is_active_sidebar( 'storevillafooter-4' ) ) {
 				$widget_columns = apply_filters( 'storevilla_footer_widget_regions', 4 );
-			} elseif ( is_active_sidebar( 'storevillafooter-2' ) ) {
+			} elseif ( is_active_sidebar( 'storevillafooter-3' ) ) {
 				$widget_columns = apply_filters( 'storevilla_footer_widget_regions', 3 );
-			} elseif ( is_active_sidebar( 'storevillafooter-1' ) ) {
+			} elseif ( is_active_sidebar( 'storevillafooter-2' ) ) {
 				$widget_columns = apply_filters( 'storevilla_footer_widget_regions', 2 );
 			} elseif ( is_active_sidebar( 'storevillafooter-1' ) ) {
 				$widget_columns = apply_filters( 'storevilla_footer_widget_regions', 1 );
@@ -395,18 +395,18 @@ if ( ! function_exists( 'storevilla_footer_widgets' ) ) {
 			}
 	
 			if ( $widget_columns > 0 ) : ?>
-	
-				<section class="footer-widgets col-<?php echo intval( $widget_columns ); ?> clearfix">
+                        <?php $val = (100/$widget_columns) / 8.3;?>
+				<section class="footer-widgets  clearfix">
 					
-					<div class="top-footer-wrap">
+					<div class="top-footer-wrap container">
 
-						<div class="store-container">
+						<div class="store-container row">
 
 							<?php $i = 0; while ( $i < $widget_columns ) : $i++; ?>
 			
 								<?php if ( is_active_sidebar( 'storevillafooter-' . $i ) ) : ?>
 			
-									<section class="block footer-widget-<?php echo intval( $i ); ?>">
+									<section class="col-md-<?php echo intval( $val ); ?> block footer-wid-<?php echo intval( $i ); ?>">
 							        	<?php dynamic_sidebar( 'storevillafooter-' . intval( $i ) ); ?>
 									</section>
 			
@@ -444,10 +444,7 @@ if ( ! function_exists( 'storevilla_credit' ) ) {
 
 			<div class="store-container">
 
-				<div class="site-info">
-				<?php echo apply_filters( 'storevilla_copyright_text', $content = '&copy; ' . date_i18n( 'Y' ) . ' - ' . get_bloginfo( 'name' ) ); ?>
-					<p><a href="https://accesspressthemes.com/" target="_blank">AccessPress Themes</a> - <a href="http://flowertimes.ru/" title="Цветы и домашние растения" target="_blank">Комнатные растения и цветы</a></p>
-				</div><!-- .site-info -->
+				
 		<?php
 	}
 }
