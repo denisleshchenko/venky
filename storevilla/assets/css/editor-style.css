@@ -1,0 +1,74 @@
+body {
+	color: #666666;
+}
+
+/*=============================================*/
+
+.editor-post-title__block .editor-post-title__input{
+    font-family: Open Sans;
+}
+
+.editor-styles-wrapper{
+    font-family: Open Sans;
+}
+
+.editor-styles-wrapper ul, .editor-styles-wrapper ol{
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+.wp-block-code .editor-plain-text{
+    font-family: Open Sans;
+}
+
+.wp-block-pullquote blockquote>.editor-rich-text p{
+    font-size: 28px;
+}
+
+.wp-block-preformatted pre{
+    font-family: Open Sans;
+    font-size: 21.25px;
+}
+
+.editor-styles-wrapper p {
+    font-size: 17px;
+    font-family: Open Sans;
+}
+
+/*=============================================
+=            Heading Typography            =
+=============================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #666666;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.75rem
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}

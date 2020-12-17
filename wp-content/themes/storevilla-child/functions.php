@@ -35,3 +35,7 @@ add_action( 'storevilla_footer', 'storevilla_credit', 20 );
 add_action( 'storevilla_footer', 'storevilla_payment_logo', 40 );
 function storevilla_payment_logo() {	
 };
+
+
+
+require (get_stylesheet_directory() .'/inc/template-tags-child.php');

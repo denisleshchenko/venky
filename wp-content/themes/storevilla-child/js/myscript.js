@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
         if (width < 768) {
             aset.addClass('wid-act');
             aset.find('h3').addClass('fot-act');
-            aset.find('ul').addClass('widget-active');   
+            aset.find('ul').addClass('widget-active');
         } else {
             aset.removeClass('wid-act');
             aset.find('h3').removeClass('fot-act');
@@ -29,4 +29,15 @@ jQuery(document).ready(function ($) {
         }
 
     });
+
+    $('body').on('change', '.qty', function () {
+        $('[name="update_cart"]').trigger('click');
+    });
+    $('body').on('click', '.plus, .minus', function () {
+
+        $('.input-text.qty.text').val($('.input-text.qty.text').val()).change();
+
+        $('[name="update_cart"]').trigger('click');
+    });
+
 });

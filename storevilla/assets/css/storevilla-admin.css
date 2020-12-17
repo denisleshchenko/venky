@@ -1,0 +1,315 @@
+.screenshot img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+.remove-image {
+    cursor: pointer;
+}
+
+.storevilla-multiplecat {
+	height: 100px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	padding: 0px 10px;
+	margin-top: 5px;
+}
+
+#storevilla-img-container li label {
+            display: inherit !important;
+            margin-left: 0px !important;
+}
+ #storevilla-img-container .storevilla-radio-img-img {
+     border: 3px solid #DEDEDE;
+     margin: 10px 4px 5px 0;
+     cursor: pointer;
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     width:45%;
+ }
+ #storevilla-img-container .storevilla-radio-img-selected {
+     border: 3px solid #AAA;
+     border-radius: 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+ }
+ input[type=checkbox]:before {
+   content: '';
+     margin: -3px 0 0 -4px;
+ }
+ 
+ 
+ /*custom admin style css*/
+
+.store_villa_draggable{
+    padding:5px 0;  
+}
+.storevilla-customize-control-title{
+    border: 1px solid #dfdfdf;
+    cursor: move !important;
+    font-weight: bold;
+    padding: 0 10px !important;
+    height: 40px;
+    line-height: 40px !important;
+    background-color: #f1f1f1;
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: linear-gradient(top, #f9f9f9, #ececec);
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+    text-align: center;
+    color: #696969;
+}
+.storevilla-box-content-hidden{
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    background:#fff;
+    display:none;   
+}
+
+.customize-control-title{
+    color:#696969;  
+}
+.store_villa_image_control input[type=text]{
+    margin-bottom:10px; 
+}
+.customize-control input[type=text]{
+    margin-bottom:15px; 
+}
+.store_villa_general_control_droppable textarea{
+    width:98%;
+    margin-bottom:15px; 
+}
+.storevilla-main-group {
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+}
+.storevilla-main-group-heading {
+    background: #CACACA;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0px 0px 13px 10px;
+}
+
+/* Customiser woocommerce page layout settings */
+.image label{
+    position: relative;
+    margin: 0 3% 3% 0;
+    display: inline-block;
+    width: 46%;
+}
+.image input{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image img{
+    display: block;
+    border:2px solid #F6F6F6;
+}
+
+.image input:checked + img{
+    border:2px solid #CCC;
+}
+
+/** 
+ * Multiimage Control
+*/
+.gallery-screenshot{
+  margin-bottom: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.gallery-screenshot .screen-thumb{
+  width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 5px;
+  float: left;
+}
+
+.gallery-screenshot .screen-thumb img{ 
+  border: 1px solid #EEE;
+  vertical-align: middle;
+}
+
+#clear-gallery{
+  float: right;
+}
+.clearfix:after,
+.clearfix:before{
+  content: "";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+
+/**
+ * Font Awesome Icon Lists
+*/
+.ap-customize-icons .icons-list-wrapper{
+    height: 200px;
+    display: block;
+    overflow-y: scroll;
+    background: #fff;
+    border: 1px solid #CCCCCC;
+}
+
+.ap-customize-icons .icons-list-wrapper li{
+    display: block;
+    float: left;
+    padding: 14px;
+    height: 19px;
+    width: 19px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 50%;
+}
+.ap-customize-icons .icons-list-wrapper li:hover,
+.ap-customize-icons .icons-list-wrapper li.selected {
+    background: #5A5A5A;
+    color: #fff;
+}
+.selected-icon-preview {
+    background: #7D7D7D;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 6px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+}
+.selected-icon-preview i {
+    font-size: 25px;
+    padding: 9px;
+}
+
+/**
+ * Customizer Upgreate pro
+*/
+.upgrade-pro{
+    background-color: #e24545;
+    color: #FFF !important;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1;
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+}
+.admin-pro-feature-list li{
+ 
+    border-bottom: 1px solid #DBDBDB;
+    margin: 0;
+    padding: 10px 0px;
+    line-height: 1;
+}
+.admin-pro-feature-list li:before{
+     content: "\f345";
+    font: 400 20px/1 dashicons;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+ 
+ }
+.admin-pro-feature-list span{
+    display: inline-block;
+    width: 90%;
+    line-height: 1.5;
+    vertical-align: top;
+}
+.admin-pro-feature-list{
+    margin: 0 5px;
+}
+.buynow{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/*User stick note*/
+.user_sticky_note {
+   padding: 0px 10px 15px;
+   background: #EEE;
+   border-bottom: 1px solid #EEE;
+}
+
+.sticky_info_row .button{
+    width: 100%;
+    margin: 2px 0;
+    text-align: center;
+}
+
+#customize-control-theme_info_more_theme span,
+#customize-control-theme_info_pro_theme span,
+#customize-control-theme_info_useful_plugins span{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/**
+ * Upgred To Pro
+*/
+.control-section-storevilla-pro{
+  display: block !important;
+}
+.control-section-storevilla-pro h3.accordion-section-title {
+    background: #226084 !important;
+    color: #FFF !important;
+}
+.control-section-storevilla-pro .accordion-section-title .button {
+    margin-top: -4px;
+    margin-left: 8px;
+    border: none;
+    color: #fff;
+    background: #28c503;
+    box-shadow: none;
+}
+#customize-control-enlighten_theme_info a {
+    background: #2e8ecb;
+    color: #fff;
+    display: block;
+    padding: 7px 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+#customize-control-enlighten_theme_info a:hover{
+    color: #fff;
+    background: #2380BA;
+}
+#customize-control-enlighten_theme_info a.buynow {
+    padding: 0;
+}
+
+.upgrade-pro{
+   background-color: #e24545;
+   color: #FFF !important;
+   font-size: 12px;
+   padding: 5px;
+   line-height: 1;
+   display: block;
+   margin-top: 6px;
+   text-align: center;
+   text-decoration: none;
+}

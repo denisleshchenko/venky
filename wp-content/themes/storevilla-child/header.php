@@ -83,11 +83,11 @@
                                 } else {
                                     if (storevilla_is_woocommerce_activated()) {
                                         ?>    			
-                                        <li>
+<!--                                        <li>
                                             <a class="sv_login" href="<?php //echo get_permalink(get_option('woocommerce_myaccount_page_id'));    ?>">
                                         <?php //_e('Login / Register', 'storevilla');   ?>
                                             </a>
-                                        </li>
+                                        </li>-->
                                     <?php
                                     }
                                 }

@@ -1,0 +1,373 @@
+.top-header .top-navigation ul li a:focus {
+    color:#0091D5;
+}
+
+.top-header .top-navigation ul li:focus ul {
+    display: block;
+}
+
+.top-header ul.store-quickinfo li a:focus {
+    color: #0091D5;
+}
+
+.top-header .top-header-regin ul li a:focus,
+.top-header-regin .count .fa.fa-shopping-basket:focus {
+    color:#0091D5;
+}
+
+.top-header-regin ul li:focus .widget_shopping_cart {
+    opacity: 1;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    z-index: 999999;
+    visibility: visible;
+}
+
+.top-header-regin ul li span.cart-count:focus {
+    background: #DD1F26;
+}
+
+.header-wrap .search-cart-wrap .advance-search .sv_search_form #searchsubmit:focus,
+.normal-search .search-form .search-submit:focus {
+    background: #006ea1;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+.header-wrap .site-header-cart.menu li a.cart-contents:focus {
+    background: #fcc646;
+}
+
+.header-wrap .site-header-cart.menu li:focus .widget.woocommerce.widget_shopping_cart {
+    display: block;
+}
+
+.woocommerce a.remove:focus {
+    background: none;
+    color: red !important;
+}
+
+.woocommerce a.button.wc-forward:focus,
+.woocommerce a.button.checkout:focus {
+    box-shadow: 0 0 15px -7px #666;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.main-navigation ul li a:focus {
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.main-navigation ul ul li a:focus {
+    background: #0091D5;
+    color: #fff;
+}
+
+.main-navigation ul li:focus-within > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    left: 0;
+}
+
+.main-navigation ul li ul li:focus a {
+    background: #fff;
+    color: #0091D5;
+}
+
+.site-content .slider-wrapper ul.store-gallery li .banner-slider-info a.slider-button:focus {
+    background: #fff;
+    color: #000;
+    transform: translateY(-8px);
+    -webkit-transform: translateY(-8px)
+}
+
+.site-content .slider-wrapper .lSPager.lSpg li:focus a {
+    background-color: #0091D5;
+}
+
+.site-content .banner-header-promo a:focus .sv-promo-area {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.widget_storevilla_cat_widget_area .category-slider li .item-img a:focus .sv_category_count {
+    background-color: #0091D5;
+}
+.widget_storevilla_cat_widget_area .category-slider li .item-img a:focus .sv_category_count h3.sv-header-title,
+.widget_storevilla_cat_widget_area .category-slider li .item-img a:focus .sv_category_count p {
+    color: #fff;
+}
+
+.widget_storevilla_latest_product_cat_widget_area .latest-product-slider li .block-item-title span a:focus,
+.widget_storevilla_product_widget_area .store-product li .block-item-title span a:focus,
+.widget_storevilla_cat_with_product_widget_area .cat-with-product li .block-item-title span a:focus {
+    color: #0091D5;
+}
+
+.widget_storevilla_latest_product_cat_widget_area .latest-product-slider li .block-item-title h3 a:focus,
+.widget_storevilla_product_widget_area .store-product li .block-item-title h3 a:focus,
+.widget_storevilla_cat_with_product_widget_area .cat-with-product li .block-item-title h3 a:focus,
+.woocommerce ul.products li.product .block-item-title h3 a:focus {
+    color: #0091D5;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+.widget_storevilla_latest_product_cat_widget_area .latest-product-slider li .item-img a.product-image:focus img,
+.widget_storevilla_product_widget_area .store-product li .item-img a.product-image:focus img,
+.widget_storevilla_cat_with_product_widget_area .product-cat-slide li .item-img a.product-image:focus img {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+
+ul.add-to-links li a:focus {
+    color: #0091D5;
+}
+
+.product-button-wrap a.button:focus,
+.product-button-wrap a.added_to_cart:focus,
+.product-button-wrap a.villa-details:focus {
+     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background: none;
+    color: #000;
+}
+
+.widget_storevilla_cat_with_product_widget_area .block-title-desc a.view-bnt:focus {
+    background: #30CFEF;
+    transition:all 0.5s ease-in-out 0s;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    border: 1px solid #30CFEF;
+}
+
+.widget_storevilla_cat_with_product_widget_area .product-cat-slide .home-block-inner a:focus img {
+    transform: scale(1.1);
+    -webkit-transform:scale(1.1);
+}
+
+.widget_storevilla_blog_widget_area .blog-preview .blog-preview-info h2 a:focus,
+.widget_storevilla_blog_widget_area .large-blog-preview .blog-preview-info h2 a:focus {
+    color: #30CFEF;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+.widget_storevilla_promo_pages_area .promo-area a:focus button,
+.widget_storevilla_blog_widget_area .blog-preview a.blog-preview-btn:focus,
+.widget_storevilla_blog_widget_area .large-blog-preview a.blog-preview-btn:focus {
+    background: #0091D5 none repeat scroll 0 0;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    color: #fff;
+    border: 1px solid #0091D5;
+}
+
+.site-footer .site-info a:focus {
+    color: #30CFEF;
+} 
+
+.widget_nav_menu ul li a:focus,
+.widget_pages ul li a:focus,
+.widget_recent_entries ul li a:focus,
+.widget_meta ul li a:focus,
+.widget_archive ul li a:focus,
+.widget_categories ul li a:focus {
+    color: #0091D5;
+}
+
+.widget_storevilla_aboutus_info_area ul li a:focus {
+    background: #30CFEF;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+.widget_storevilla_aboutus_info_area ul li a:focus .fa {
+    color: #fff;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+
+.widget_storevilla_contact_info_area ul li span:focus {
+    border-color: #0091D5;
+    cursor: pointer;
+    background: #0091D5;
+    color: #fff;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.widget_search form input[type=submit]:focus,
+.widget_product_search form input[type=submit]:focus,
+.no-results.not-found .search-form .search-submit:focus {
+    background: #DD1F26;
+}
+
+.widget_tag_cloud .tagcloud a:focus,
+.widget_product_tag_cloud .tagcloud a:focus {
+    background: #0091D5;
+    transition: all 0.7s ease-in-out 0s;
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    color: #fff;
+    border:1px solid #0091D5;
+}
+
+a.scrollup:focus {
+    background: rgba(0,0,0,1);
+    color: #30CFEF;
+    transition: all 0.7s ease-in-out 0s;
+    -webkit-transition: all 0.7s ease-in-out 0s;
+}
+
+.woocommerce .woocommerce-breadcrumb a:focus {
+    color: #0091D5;
+} 
+
+.woocommerce #respond input#submit:focus, 
+.woocommerce a.button:focus, 
+.woocommerce button.button:focus, 
+.woocommerce input.button:focus {
+    background: none;
+    color: #000;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.storevilla-blog .sv-post-content .category-name span a:focus {
+    color: #0091d5;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.storevilla-blog h3 a:focus {
+    color: #0091d5;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.storevilla-blog .sv-post-foot a:focus,
+.storevilla-blog .sv-post-content a.sv-btn-countinuereading:focus {
+    color: #30cfef;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.blog-meta li a:focus {
+    color: #30cfef;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.yith-woocompare-widget a.clear-all:focus {
+    background-color: #0091d5;
+    color: #fff;
+    border-color: #0091d5;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.post-navigation .nav-links .nav-previous a:focus,
+.post-navigation .nav-links .nav-next a:focus {
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    color: #0091D5;
+}
+
+.comments-area .form-submit .submit:focus {
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    background: #DD1F26;    
+}
+
+.pagination .nav-links a:focus {
+    background: #0091D5;
+    border-color: #0091D5;
+    color: #fff;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.woocommerce #respond input#submit.alt:focus, 
+.woocommerce a.button.alt:focus, 
+.woocommerce button.button.alt:focus, 
+.woocommerce input.button.alt:focus {
+    background: #0083C1;
+}
+
+.single-product .compare.button:focus,
+.single-product .entry-summary .yith-wcwl-add-to-wishlist a:focus {
+    background: none;
+    color: #0091D5;
+}
+
+.single-product .product_meta .posted_in a:focus {
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    color: #0091D5;
+}
+
+.error-homepage a:focus {
+    background: #0083C1;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:focus {
+    background: #0091D5;
+    color: #fff;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:focus a {
+    color: #fff;
+}
+
+table.wishlist_table .product-name a:focus,
+table.wishlist_table .product-name a.button:focus {
+    color: #0091D5;
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.comments-area .reply a:focus {
+    background: #FBB203;  
+}
+
+.woocommerce div.product form.cart .group_table td.label a:focus {
+  color: #FBB203;
+}
+
+.widget-area .widget_storevilla_contact_info_area .contacts-info li span:focus {
+    border-color: #fff;
+    color: #fff;
+}
+
+.widget-area .widget_storevilla_contact_info_area .contacts-info li a:focus {
+    color: #0091d5;
+}
+
+.woocommerce-MyAccount-navigation ul li:focus a {
+    background: #0091D5;
+    color: #fff;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.woocommerce-MyAccount-content a:focus {
+    color: #8b8b8b;
+}
+
+.main-navigation ul li:focus a {
+    background: rgba(0,0,0,0.1);
+    transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+}
+
+.woocommerce-cart table.cart .quantity button:focus {
+    background: #0091d5;
+    color: #fff;
+}

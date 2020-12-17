@@ -1,0 +1,11 @@
+<wpml-config>
+<admin-texts>
+<key name="theme_mods_storevilla">
+    <key name="storevilla_woocommerce_singel_product_page_upsell_title" />
+    <key name="storevilla_woocommerce_product_page_related_title" />
+    <key name="storevilla_brands_top_title" />
+    <key name="storevilla_brands_main_title" />
+    <key name="storevilla_footer_copyright" />
+</key>
+</admin-texts>
+</wpml-config>

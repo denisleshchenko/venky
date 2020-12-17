@@ -1,0 +1,58 @@
+2020-12-16T10:33:09+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:33:49+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:33:53+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:34:31+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:35:31+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:35:32+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T10:37:40+00:00 CRITICAL Cannot redeclare tgmpa() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\ajax-product-filter-for-woocommerce\libs\tgm\class-tgm-plugin-activation.php:2126) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\storevilla-plugin-activation.php на строке 2124
+
+2020-12-16T16:04:09+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:04:10+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:05:01+00:00 CRITICAL Cannot redeclare storevilla_categorized_blog() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\template-tags.php:91) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\template-tags.php на строке 113
+
+2020-12-16T16:05:02+00:00 CRITICAL Cannot redeclare storevilla_categorized_blog() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\template-tags.php:91) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\template-tags.php на строке 113
+
+2020-12-16T16:11:03+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:11:04+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:13:03+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:13:04+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:16:24+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:16:26+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:16:48+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:16:49+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:17:46+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:17:47+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/StoreVilla/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:18:11+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T16:18:12+00:00 CRITICAL require(): Failed opening required 'http://venky.loc/wp-content/themes/storevilla-child/inc/template-tags-child.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php на строке 39
+
+2020-12-16T17:32:00+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/assets/css/style.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\functions.php на строке 301
+
+2020-12-16T17:32:27+00:00 CRITICAL require(): Failed opening required 'D:\ServerPhp7\OSPanel\domains\venky.loc/wp-content/themes/StoreVilla/assets/css/style.php' (include_path='.;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64;d:/serverphp7/ospanel/modules/php/PHP-7.1-x64/PEAR/pear') в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\functions.php на строке 301
+
+2020-12-16T17:54:38+00:00 CRITICAL Cannot redeclare storevilla_woocommerce_template_loop_add_to_cart() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php:40) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\extras.php на строке 617
+
+2020-12-16T17:54:39+00:00 CRITICAL Cannot redeclare storevilla_woocommerce_template_loop_add_to_cart() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php:40) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\extras.php на строке 617
+
+2020-12-16T17:55:47+00:00 CRITICAL Cannot redeclare storevilla_woocommerce_template_loop_add_to_cart() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php:41) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\extras.php на строке 617
+
+2020-12-16T17:55:48+00:00 CRITICAL Cannot redeclare storevilla_woocommerce_template_loop_add_to_cart() (previously declared in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\functions.php:41) в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla\inc\extras.php на строке 617
+
