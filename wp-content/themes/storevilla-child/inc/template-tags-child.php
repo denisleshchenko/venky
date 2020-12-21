@@ -51,3 +51,5 @@ function storevilla_footer_widgets() {
     <?php
     endif;
 }
+
+ ?>

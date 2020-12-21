@@ -9,6 +9,7 @@ Version: 0.1.0
 *, ::after, ::before {
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6,.main-widget-wrap .block-title h2, .block-title h2, h1.page-title, .woocommerce div.product .product_title, .page h3.entry-title{font-family: 'Arial';}
 .main-navigation,
 .header-wrap .search-cart-wrap .advance-search .sv_search_form #searchsubmit,
 .top-header-regin ul li span.cart-count,
@@ -284,6 +285,9 @@ Version: 0.1.0
 }
 
 /* END PRELOADER */
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"] {
+    padding: 10px;
+}
 header{
     z-index: 99;
     position: relative; 
@@ -300,7 +304,7 @@ header{
 }
 .main-navigation li.menu-item-has-children > a::before{
     font-size: 18px;
-    line-height: 31px;    
+    line-height: 33px;    
 }
 .main-navigation ul li a{
     font-family: "Gabriola";
@@ -325,7 +329,7 @@ header{
 .main-navigation ul li ul li a{
     padding: 3px 10px;
     font-size: 22px;
-    width: 245px;
+    width: 250px;
 }
 .top-header .top-header-regin{
     padding-top: 17px;
@@ -585,6 +589,7 @@ input[type="submit"]:active {
     position: relative;
     padding-left: 25px;
     padding-bottom: 10px;
+    font-family: 'Arial';
 }
 .kontact-info .item-city span{
     color: #c6c6c6;
@@ -660,7 +665,7 @@ aside.wid-act ul{padding-bottom: 15px;}
     text-shadow:none;
 }
 header .top-header .top-header-regin{
-    margin-right: 10px;
+    margin-right: 7px;
 }
 .woocommerce-cart-form .actions{
     display: none;
@@ -670,13 +675,13 @@ header .top-header .top-header-regin{
 }
 .woocommerce a.button:hover{
     color: #fff;
-    font-family: 'Open Sans';
+    font-family: 'Arial';
 }
 .product-button-wrap a.button, .product-button-wrap a.added_to_cart{
     border: 1px solid #fff;
 }
 .product .product-button-wrap a{
-    font-family: 'Open Sans';
+    font-family: 'Arial';
     display: block;
     float: none;
     max-width: 180px;
@@ -689,20 +694,83 @@ header .top-header .top-header-regin{
 }
 .woocommerce .woocommerce-ordering select{width: 200px;}
 .woocommerce div.product .woocommerce-tabs .panel.entry-content.wc-tab{border-top: 2px solid #000;}
+.cart_item .quantity .input-text{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+a,p,.woocommerce-tabs.wc-tabs-wrapper, .page .entry-content{font-family: 'Arial';}
+.product-name a{color: #000;}
+.woocommerce a.button,.woocommerce button.button{
+    border: none;font-family: 'Arial';
+}
+.top-header .top-header-regin ul li a:hover, .top-header-regin .count .fa.fa-shopping-basket:hover {
+    color: #BFBFBF;
+}
+a.scrollup:hover{
+    color: #fff;
+}
+.woocommerce-input-wrapper {
+    width: 100%;
+}
+.woocommerce form .form-row label {
+    line-height: 1;
+}
+#place_order {
+    width: 160px;
+    padding: 15px;
+}
+
+#primary-menu>li.current_page_item a,#primary-menu>li.current-menu-parent>a{
+    color: #ffc1c1;
+    border-bottom: 4px solid red;
+}
+#primary-menu li .sub-menu .current-menu-item a,#primary-menu > li.current-menu-parent > a:before{
+    color: #ffcac1;
+}
+.dop-men .primary-navigation #primary-menu li a{
+    padding-left: 17px;
+    padding-right: 17px;
+} 
+.main-navigation .dop-men li.menu-item-has-children > a::before{
+    right: 2px;
+}
+.main-navigation ul#primary-menu>li:hover>a{text-decoration: underline;}
+.wpcourses-breadcrumbs a,.wpcourses-breadcrumbs span{
+        font-size: 14px;
+        color: #767676;
+}
+.wpcourses-breadcrumbs{margin-bottom: 15px;}
+
+
+
+
+
+
 
 
 /*    MEDIA     */
-
+@media (min-width:768spx){
+    .dop-men .primary-navigation #primary-menu li a{
+        padding: 20px 17px;
+    } 
+}
 @media (max-width:1199px){
-    .primary-navigation{
-        padding-left: 65px;
-    }
     .banner_categories_list{
         padding-top: 117px;
     }
+    .primary-navigation {
+        padding-left: 50px;
+    }
 }
 
-
+@media (max-width:1090px){
+    .top-header .store-container.dop-men {
+        padding: 0 10px 0 10px;
+    }
+    .main-navigation {
+        width: 92%;
+    }
+}
 @media (max-width:1000px){
     .primary-navigation{
         padding-left: 0px;
@@ -719,6 +787,10 @@ header .top-header .top-header-regin{
         padding-left: 65px;
         padding-top: 80px;
         width: 327px;
+    }
+    .dop-men .primary-navigation #primary-menu li a {
+        padding-left: 5px;
+        padding-right: 10px;
     }
     .banner_categories_list li a{
         font-size: 25px; 
@@ -739,7 +811,7 @@ header .top-header .top-header-regin{
 }
 @media (max-width:910px){
     .main-navigation {
-        width: 94%;
+        width: 92%;
     }
     .store-container.clearfix {
         text-align: left;
@@ -748,6 +820,7 @@ header .top-header .top-header-regin{
 @media (max-width:835px){
     .main-navigation ul li a {
         padding: 10px 13px 0;
+        font-size: 21px;
     }
     header .top-header .top-header-regin {
         padding-top: 10px;
@@ -756,9 +829,22 @@ header .top-header .top-header-regin{
     header .top-header .store-container{
         padding: 0 10px 0 5px;
     }
+    .main-navigation {
+        width: 90%;
+    }
+    .top-header .store-container.dop-men {
+        padding: 0 0px 0 0px;
+    }
+    .dop-men .primary-navigation #primary-menu li a {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 @media (max-width: 768px) {
+    .wpcourses-breadcrumbs{
+        display: none;
+    }
     .main-navigation .menu-toggle{
         margin-top: 7px;
     }
@@ -812,6 +898,9 @@ header .top-header .top-header-regin{
     }
     .banner-ul-p{
         display: none;
+    }
+    .primary-navigation #primary-menu li a{
+        padding: 7px 15px;
     }
 
 }

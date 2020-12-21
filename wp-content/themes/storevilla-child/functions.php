@@ -35,7 +35,28 @@ add_action( 'storevilla_footer', 'storevilla_credit', 20 );
 add_action( 'storevilla_footer', 'storevilla_payment_logo', 40 );
 function storevilla_payment_logo() {	
 };
-
-
+/* breadcrumbs */
+function wpcourses_breadcrumb( $sep = ' > ' ) {
+	global $post;
+	$out = '';
+	$out .= '<nav class="wpcourses-breadcrumbs">';
+	$out .= '<a href="' . home_url( '/' ) . '">Главная</a>';
+	$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
+	if ( is_single() ) {
+		$terms = get_the_terms( $post, 'category' );
+		if ( is_array( $terms ) && $terms !== array() ) {
+			$out .= '<a href="' . get_term_link( $terms[0] ) . '">' . $terms[0]->name . '</a>';
+			$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
+		}
+	}
+	if ( is_singular() ) {
+		$out .= '<span class="wpcourses-breadcrumbs-last">' . get_the_title() . '</span>';
+	}
+	if ( is_search() ) {
+		$out .= get_search_query();
+	}
+	$out .= '</nav><!--.wpcourses-breadcrumbs-->';
+	return $out;
+}
 
 require (get_stylesheet_directory() .'/inc/template-tags-child.php');

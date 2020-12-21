@@ -42,7 +42,7 @@
                 <div class="top-header">					
                     <div class="store-container clearfix">						
                         <nav id="site-navigation" class="main-navigation">
-                            <div class="store-container clearfix">
+                            <div class="store-container clearfix <?php if(!( is_home() || is_front_page())){echo 'dop-men'; } ?>">
                                 <div class="menu-toggle" aria-controls="primary-navigation">
                                     <span></span>
                                 </div>
