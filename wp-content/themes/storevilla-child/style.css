@@ -783,7 +783,7 @@ opacity: 0.9!important;
     color: #3c3c3c;
 }
 #main .woocommerce-products-header{padding: 0 0 10px 0;}
-.page h3.entry-title,h1.page-title{color: #111;position: relative;display: table;padding: 0 0 5px;text-align: center;}
+.page h3.entry-title,h1.page-title{color: #111;position: relative;display: table;padding: 0 0 5px;text-align: center;width: 100%;}
 .page h3.entry-title:after,h1.page-title:after{
     position: absolute;
     content: '';
@@ -798,6 +798,10 @@ opacity: 0.9!important;
     color: #999;
     font-size: 0.7rem;
 }
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    box-shadow: 0 0 5px #ccc;
+}
+.product-button-wrap a.added_to_cart:before{display: none;}
 
 /*    MEDIA     */
 @media (min-width:768spx){
@@ -813,7 +817,14 @@ opacity: 0.9!important;
         padding-left: 50px;
     }
 }
-
+@media (max-width:1111px){     
+    .product-button-wrap a.villa-details:before,.product-button-wrap a.button:before{
+        display: none;
+    }
+    .related.products .products .product-button-wrap a,.product .product-button-wrap a.villa-details,.product .product-button-wrap a.button{
+        width: 100%;
+    }
+}
 @media (max-width:1090px){
     .top-header .store-container.dop-men {
         padding: 0 10px 0 10px;
@@ -893,6 +904,9 @@ opacity: 0.9!important;
 }
 
 @media (max-width: 768px) {
+    .product-button-wrap a.villa-details:before,.product-button-wrap a.button:before{
+        display: block;
+    }
     .wpcourses-breadcrumbs{
         display: none;
     }

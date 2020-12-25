@@ -105,7 +105,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
     </span>    
 <?php else : ?>
 
-	<p class="woocommerce-mini-cart__empty-message"><?php esc_html_e( 'No products in the cart.','storevilla' ); ?></p>
+	<p class="woocommerce-mini-cart__empty-message"><?php esc_html_e( 'Продуктов в корзине нет.','storevilla' ); ?></p>
 
 <?php endif; ?>
 
