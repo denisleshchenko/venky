@@ -560,6 +560,7 @@ input[type="submit"]:active {
 .widget_nav_menu ul li a:before,.widget_nav_menu ul li a:hover:before{
     content: '\f0f6';
     left: -3px;
+    opacity: 0.8;
 }
 .footer-wid-2 ul li a{padding-left: 15px;position: relative;}
 .footer-wid-2 ul li a:before{
@@ -569,6 +570,7 @@ input[type="submit"]:active {
     font-size: 14px;
     left: -4px;
     color: #999;
+    opacity: 0.7;
 }
 .footer-wid-1 ul,.footer-wid-2 ul{
     padding-left: 5px;
@@ -736,17 +738,66 @@ a.scrollup:hover{
 }
 .main-navigation ul#primary-menu>li:hover>a{text-decoration: underline;}
 .wpcourses-breadcrumbs a,.wpcourses-breadcrumbs span{
-        font-size: 14px;
-        color: #767676;
+    font-size: 14px;
+    color: #767676;
 }
-.wpcourses-breadcrumbs{margin-bottom: 15px;}
-
-
-
-
-
-
-
+.wpcourses-breadcrumbs,.woocommerce .woocommerce-breadcrumb{margin-bottom: 15px;}
+.woocommerce nav.woocommerce-pagination ul, .woocommerce nav.woocommerce-pagination ul li,.woocommerce .woocommerce-message{
+    border-color: #000;
+}
+.woocommerce nav.woocommerce-pagination ul li a,.woocommerce nav.woocommerce-pagination ul li span{color: #000;padding: 0.5em 0.7em !important;}
+#secondaryright h3.widget-title,#secondaryright h3.comment-reply-title{
+    color: #000;
+    font-family: "Gabriola";
+    font-size: 1.6rem;
+    text-transform: inherit;
+}
+.widget-area section{
+    border:none;
+    background: #f9f9f9;
+}
+.product-button-wrap a.added_to_cart:hover{color: #ffe0e0;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.woocommerce .woocommerce-message::before {
+    color: #000;
+}
+.woocommerce a.remove {
+    color: #000 !important;
+}
+.entry-content .woocommerce-error li{
+    padding: 5px 0 5px 20px !important;
+}
+.woocommerce-error::before{top: .4em;}
+.pswp__bg {
+opacity: 0.9!important;
+}
+.page .entry-content {
+    padding-top: 30px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+#main .woocommerce-products-header{padding: 0 0 10px 0;}
+.page h3.entry-title,h1.page-title{color: #111;position: relative;display: table;padding: 0 0 5px;text-align: center;}
+.page h3.entry-title:after,h1.page-title:after{
+    position: absolute;
+    content: '';
+    background: red;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+.my-artycul {
+    color: #999;
+    font-size: 0.7rem;
+}
 
 /*    MEDIA     */
 @media (min-width:768spx){
@@ -902,7 +953,12 @@ a.scrollup:hover{
     .primary-navigation #primary-menu li a{
         padding: 7px 15px;
     }
-
+    #primary .site-main {
+        padding: 20px 0;
+    }
+    .woocommerce .woocommerce-breadcrumb {
+        margin: 0 0 15px;
+    }
 }
 @media (max-width: 555px) {
     .banner-back img{

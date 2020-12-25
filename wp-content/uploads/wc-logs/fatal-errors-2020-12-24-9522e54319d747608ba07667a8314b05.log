@@ -1,0 +1,78 @@
+2020-12-24T11:31:42+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php:98
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(218): preg_replace_ca в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php на строке 98
+
+2020-12-24T11:32:00+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on array in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php:98
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(218): preg_replace_c в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php на строке 98
+
+2020-12-24T11:33:29+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on array in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php:98
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(218): preg_replace_c в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php на строке 98
+
+2020-12-24T11:33:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on array in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php:98
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcodes.php(218): preg_replace_c в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php на строке 98
+
+2020-12-24T14:49:47+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_textarea_input() in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php:142
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\class-wp-hook.php(287): {closure}(Array, Array)
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3629): apply_filters('woocommerce_get...', Array, Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php(89): wc_get_formatted_cart_item_data(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\ServerPhp7\\O...')
+#5 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/car в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php на строке 142
+
+2020-12-24T14:49:49+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_textarea_input() in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php:142
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\class-wp-hook.php(287): {closure}(Array, Array)
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3629): apply_filters('woocommerce_get...', Array, Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\mini-cart.php(71): wc_get_formatted_cart_item_data(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\ServerPhp7\\O...')
+#5 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2164): wc_get_template('cart/mini-cart в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php на строке 142
+
+2020-12-24T14:50:44+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_textarea_input() in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php:142
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\class-wp-hook.php(287): {closure}(Array, Array)
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3629): apply_filters('woocommerce_get...', Array, Array)
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php(89): wc_get_formatted_cart_item_data(Array)
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\ServerPhp7\\O...')
+#5 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/car в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\inc\template-woocommerce-fun.php на строке 142
+
+2020-12-24T16:25:26+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Checkout as array in D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\checkout\form-checkout.php:31
+Stack trace:
+#0 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#2 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#3 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 D:\ServerPhp7\OSPanel\domains\venky.loc\wp-includes\shortcod в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\checkout\form-checkout.php на строке 31
+
+2020-12-24T17:30:35+00:00 CRITICAL syntax error, unexpected '[', expecting ')' в D:\ServerPhp7\OSPanel\domains\venky.loc\wp-content\themes\storevilla-child\woocommerce\cart\cart.php на строке 101
+

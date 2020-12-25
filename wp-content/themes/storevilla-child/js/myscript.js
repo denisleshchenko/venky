@@ -5,7 +5,6 @@ window.onload = function () {
         b[0].style.display = 'none';
     }
     preloader.style.display = 'none';
-    
 }
 
 jQuery(document).ready(function ($) {
@@ -37,15 +36,39 @@ jQuery(document).ready(function ($) {
     $('body').on('change', '.qty', function () {
         $('[name="update_cart"]').trigger('click');
     });
-    $('body').on('click', '.plus, .minus', function () {
-
-        $('.input-text.qty.text').val($('.input-text.qty.text').val()).change();
+    $('body').on('click', '.plus, .minus', function (e) {
+        var v = $(this).siblings('.input-text.qty.text').val();
+        //console.log(v);
+        $(this).siblings('.input-text.qty.text').val(v).change();
         $('[name="update_cart"]').trigger('click');
     });
-    if (window.location.pathname != '/') {
-        //$('.menu-item-home').hide();
-    } else {
-        //$('#primary-menu.menu')
-    }
-
+//   custum file cart 
+    $(document).ready(function () {
+        $('.prefix-cart-notes').on('change keyup paste', function () {
+            $('.cart_totals').block({
+                message: null,
+                overlayCSS: {
+                    background: '#fff',
+                    opacity: 0.6
+                }
+            });
+            var cart_id = $(this).data('cart-id');
+            $.ajax(
+                    {
+                        type: 'POST',
+                        url: prefix_vars.ajaxurl,
+                        data: {
+                            action: 'prefix_update_cart_notes',
+                            security: $('#woocommerce-cart-nonce').val(),
+                            notes: $('#cart_notes_' + cart_id).val(),
+                            cart_id: cart_id
+                        },
+                        success: function (response) {
+                            $('.cart_totals').unblock();
+                        }
+                    }
+            )
+        });
+    });
+//  END custum file cart
 });

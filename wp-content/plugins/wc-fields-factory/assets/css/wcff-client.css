@@ -1,0 +1,272 @@
+.wccpf-fields-group h4 {
+	margin-bottom:12px;	
+}
+
+table.wccpf_fields_table {
+	width:100%;
+	margin: 0px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.wccpf_fields_table td {
+	padding: 15px 5px;
+	vertical-align: middle;
+}
+
+table.wccpf_fields_table td.wccpf_label,
+table.wccpf_fields_table td.wccpf_label label {
+	width:125px;	
+}
+
+
+table.wccpf_fields_table td.wccpf_label label {
+	margin: 0px;
+	display:block;
+}
+
+.wcff_image_prev_shop_continer {
+	width: 65px;
+	display: block;
+    padding: 10px 0px;
+}
+
+.wcff-prev-shop-image {
+	width: 220px;
+}
+
+/* Asterik span - used for required field */
+table.wccpf_fields_table td.wccpf_label span {
+	color:red;
+}
+
+table.wccpf_fields_table td.wccpf_value input[type=text],
+table.wccpf_fields_table td.wccpf_value input[type=number],
+table.wccpf_fields_table td.wccpf_value input[type=email],
+table.wccpf_fields_table td.wccpf_value input[type=password],
+table.wccpf_fields_table td.wccpf_value textarea,
+table.wccpf_fields_table td.wccpf_value select {
+	width: 100%;
+	padding: 5px;
+	height: auto;
+	border: 1px solid #ddd;
+	-ms-box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	-ms-border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+table.wccpf_fields_table td.wccpf_value input[type=radio],
+table.wccpf_fields_table td.wccpf_value input[type=checkbox] {
+	width: auto !important;
+}
+
+table.wccpf_fields_table td.wccpf_value textarea {
+	resize: vertical;
+}
+
+table.wccpf_fields_table td.wccpf_value p.wcff-wccaf-value-para-tag {
+	margin: 0px;
+}
+
+ul.wccpf-field-layout-vertical,
+ul.wccpf-field-layout-horizontal {
+	margin: 0px;
+	padding: 0px;
+	display:block;
+}
+
+ul.wccpf-field-layout-horizontal li {
+	margin-right: 10px;
+	display:inline-block;
+}
+
+ul.wccpf-field-layout-vertical li {
+	display:block;
+}
+
+.wccpf-fields-group-title-index { display:none; }
+
+.wccpf-is-valid-1,
+.wccpf-validation-message {
+	color:red;
+	display:none;
+}
+
+.wccpf-is-valid-0 {
+	display:block !important;	
+}
+
+.wcff-label {
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.wcff-label-info {
+	color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.wcff-label-success {
+	color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.wcff-label-warning {
+	color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.wcff-label-danger {
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* jQuery UI Datepicker fix */
+
+.ui-datepicker {
+	z-index:10000;
+}
+
+/* Custom fields group on cart & checkout */
+
+.wccpf-cart-data-editor {
+	
+}
+
+.wccpf-cart-data-editor fieldset {
+    padding: 0px;
+    border: none;
+    margin: 10px 0px 15px;
+}
+
+.wccpf-cart-data-editor h5 {
+	margin:5px 0px 10px;
+}
+
+ul.wccpf-cart-editor-ul,
+div.wccpf-pricing-group-on-cart ul {
+	display:table;
+	clear:both;
+	margin:0px;
+	padding:0px;	
+	padding-left:10px;
+}
+
+div.wccpf-pricing-group-on-cart ul {
+	width: 100%;
+}
+
+ul.wccpf-cart-editor-ul li,
+div.wccpf-pricing-group-on-cart ul li {
+	float:left;	
+	margin:0px;
+	list-style:none;	
+	line-height: 20px;
+	position: relative;
+}
+
+ul.wccpf-cart-editor-ul li:first-child,
+div.wccpf-pricing-group-on-cart ul li:first-child {
+	margin-right: 10px;
+	white-space: nowrap;    
+}
+
+div.wccpf-pricing-group-on-cart ul li:last-child {
+	font-weight: bold;
+}
+
+ul.wccpf-cart-editor-ul li p {
+	margin:0px;
+}
+
+ul.wccpf-cart-editor-ul.wccpf-is-editable-yes:hover p {	
+	z-index: -2;
+	opacity: .2;
+}
+
+ul.wccpf-cart-editor-ul.wccpf-is-editable-yes:hover .wcff_cart_editor_field {
+	opacity: .9;
+	outline-width: .3px; 
+	outline-style: dotted;
+	outline-color: #000;
+	background: url(../img/edit.png);
+	background-repeat : no-repeat;
+	background-size: 15px 15px;
+	background-position: center;
+}
+
+div.wccpf-cart-edit-wrapper {
+    width: 320px;
+    padding: 30px;
+    z-index: 10000;
+    background: #fff;    
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 9px rgba(0,0,0,.4);
+       -moz-box-shadow: 0px 0px 9px rgba(0,0,0,.4);
+        -ms-box-shadow: 0px 0px 9px rgba(0,0,0,.4);
+         -o-box-shadow: 0px 0px 9px rgba(0,0,0,.4);
+            box-shadow: 0px 0px 9px rgba(0,0,0,.4);
+}
+
+
+button.wccpf-update-cart-field-btn {
+	width: 100%;
+	margin-top: 15px;
+	line-height: 1 !important;
+	font-size: 13px !important;	
+}
+
+#wccpf-cart-editor-close-btn {
+	top: 5px;
+    right: 5px;
+    width: 28px;
+    height: 28px;
+	position: absolute;
+	background-image: url("../img/cross.png");
+	background-size: contain;    
+    background-repeat: no-repeat;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+        -ms-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+
+div.wccpf-cart-edit-wrapper select,
+div.wccpf-cart-edit-wrapper textarea,
+div.wccpf-cart-edit-wrapper input[type=text],
+div.wccpf-cart-edit-wrapper input[type=email],
+div.wccpf-cart-edit-wrapper input[type=number] {
+	width: 100%;
+}
+
+span.wcff-color-picker-color-show {
+	padding: 0px 15px;
+}
+
+[class*=wccpf-admin-fields] .wccpf_fields_table:has( < tbody tr td .wccpf-field[value='']) {
+     display: none;
+} 
+
+.wcff-checkout-field-container {
+	margin: 0 0 1.5em;
+    padding: 0
+}
+
+.wcff-variation-cloning-field-container {
+	display: none;
+}
