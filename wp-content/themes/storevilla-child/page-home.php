@@ -4,6 +4,9 @@
         <div class="row banner-phone">            
             <div class="col-sm-6 left"><a href="tel:+74732463217">8(473)246-32-17</a></div>
             <div class="col-sm-6 right"><a href="tel:+79913267422">8(991)326-74-22</a></div>
+            <p class="col-lg-12 p-top">
+                            Оптовая и розничная торговля. Доставка по области и городу своим транспортом.
+            </p>
         </div>
         <div class="row banner-back">            
             <div class="col-lg-12">
@@ -14,11 +17,13 @@
                         echo get_categories_product();
                         ?>
                     </div>
+                   
                     <div class="banner-ul-p d-md-block d-lg-block col-md-6 col-lg-7 order-sm-last order-md-last order-lg-last order-first">
-                        <p>
+                         <?php/*<p>
                             <b>Оптовая</b> и <b>розничная</b> торговля. <b>Доставка</b> по области и городу <b>своим транспортом</b>.
-                        </p>
+                        </p>*/?>
                     </div>
+                    
                 </div>
             </div>
 

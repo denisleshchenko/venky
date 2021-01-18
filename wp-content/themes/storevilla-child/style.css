@@ -775,7 +775,7 @@ input[type='number'] {
 }
 .woocommerce-error::before{top: .4em;}
 .pswp__bg {
-opacity: 0.9!important;
+    opacity: 0.9!important;
 }
 .page .entry-content {
     padding-top: 30px;
@@ -802,6 +802,24 @@ opacity: 0.9!important;
     box-shadow: 0 0 5px #ccc;
 }
 .product-button-wrap a.added_to_cart:before{display: none;}
+.col-lg-12.p-top {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.main-navigation .store-container:before{
+    position: absolute;
+    content: "";
+    width: 166px;
+    height: 76px;
+    background: url('./img/logo.png') no-repeat;
+    background-size: cover;
+}
+.row.banner-back{
+    position: relative;
+}
+
 
 /*    MEDIA     */
 @media (min-width:768spx){
@@ -810,6 +828,20 @@ opacity: 0.9!important;
     } 
 }
 @media (max-width:1199px){
+    .row.banner-back:before{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: -2px;
+        width: 170px;
+        height: 78px;
+        background: url('./img/logo.png') no-repeat;
+        background-size: cover;
+        z-index: 99;
+    }
+    .main-navigation .store-container:before{
+        background:none;
+    }
     .banner_categories_list{
         padding-top: 117px;
     }
@@ -845,6 +877,10 @@ opacity: 0.9!important;
     }
 }
 @media (max-width:991px){
+    .row.banner-back:before{
+        width: 126px;
+        height: 58px;
+    }
     .banner_categories_list{
         padding-left: 65px;
         padding-top: 80px;
@@ -904,6 +940,10 @@ opacity: 0.9!important;
 }
 
 @media (max-width: 768px) {
+    .row.banner-back::before {
+        width: 106px;
+        height: 48px;
+    }
     .product-button-wrap a.villa-details:before,.product-button-wrap a.button:before{
         display: block;
     }
@@ -975,6 +1015,7 @@ opacity: 0.9!important;
     }
 }
 @media (max-width: 555px) {
+    .row.banner-back:before{background: none;}
     .banner-back img{
         display: none;
     }

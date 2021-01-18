@@ -6,7 +6,17 @@ function my_child_theme_scripts() {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('fonts-style-child', get_stylesheet_directory_uri() . '/css/main-fonts.css');
     wp_enqueue_script('myscript', get_stylesheet_directory_uri() . '/js/myscript.js', array(), esc_attr($theme_version), true);
+	
+	if( is_page( 'construct' ) ){
+	wp_enqueue_script( 'mym-script', get_stylesheet_directory_uri() . '/lib2/script.js' );
+	$translation_array = array( 'templateUrl' => get_stylesheet_directory_uri() );
+	wp_localize_script( 'mym-script', 'themename', $translation_array );
+	}
+	
 }
+
+
+
 
 function get_categories_product($categories_list = "") {
     $get_categories_product = get_terms("product_cat", [
@@ -98,6 +108,29 @@ function yourtheme_setup() {
     add_theme_support('wc-product-gallery-lightbox');
     add_theme_support('wc-product-gallery-slider');
 }
+
+
+add_filter( 'woocommerce_variable_price_html', 'truemisha_variation_price', 20, 2 );
+ 
+function truemisha_variation_price( $price, $product ) {
+ 
+	$min_regular_price = $product->get_variation_regular_price( 'min', true );
+	$min_sale_price = $product->get_variation_sale_price( 'min', true );
+	$max_regular_price = $product->get_variation_regular_price( 'max', true );
+	$max_sale_price = $product->get_variation_sale_price( 'max', true );
+ 
+	if ( ! ( $min_regular_price == $max_regular_price && $min_sale_price == $max_sale_price ) ) {
+		if ( $min_sale_price < $min_regular_price ) {
+			$price = sprintf( 'от <del>%1$s</del><ins>%2$s</ins>', wc_price( $min_regular_price ), wc_price( $min_sale_price ) );
+		} else {
+			$price = sprintf( 'от %1$s', wc_price( $min_regular_price ) );
+		}
+	}
+ 
+	return $price;
+ 
+}
+
 
 
 require (get_stylesheet_directory() . '/inc/template-woocommerce-fun.php');
